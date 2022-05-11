@@ -100,6 +100,7 @@ yargs.command(
                 demandOption: true
             },
         },
+        
         handler:()=>{
             notes.readNotes(yargs.argv.title,yargs.argv.body)
         }
